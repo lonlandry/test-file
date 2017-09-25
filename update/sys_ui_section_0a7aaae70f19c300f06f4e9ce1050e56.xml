@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Service plan" section_id="0a7aaae70f19c300f06f4e9ce1050e56" sys_domain="global" table="x_132308_myhomemed_equipment" version="3" view="warranty_service_agreement">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_service_plan</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>e37a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_plan_benefits</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>677a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_mos</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>e77a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_ship_cost</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>6b7a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_ship_cost_value</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>eb7a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_currency</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>6f7a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>ef7a6ee70f19c300f06f4e9ce1050e89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_serv_begin</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>637a6ee70f19c300f06f4e9ce1050e8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_serv_end</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>e37a6ee70f19c300f06f4e9ce1050e8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_rma_required</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>677a6ee70f19c300f06f4e9ce1050e8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_serv_notes</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:58</sys_created_on>
+            <sys_id>e77a6ee70f19c300f06f4e9ce1050e8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service plan" display_value="Service plan" name="x_132308_myhomemed_equipment" sys_domain="global" view="4e7aaae70f19c300f06f4e9ce1050e50">0a7aaae70f19c300f06f4e9ce1050e56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Service plan</caption>
+            <header>false</header>
+            <name>x_132308_myhomemed_equipment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-25 14:55:52</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a7aaae70f19c300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service plan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_ui_section_0a7aaae70f19c300f06f4e9ce1050e56</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-25 14:55:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Warranty &amp; Service Agreement" name="warranty_service_agreement">4e7aaae70f19c300f06f4e9ce1050e50</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

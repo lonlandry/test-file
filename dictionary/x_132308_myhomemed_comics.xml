@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_132308_myhomemed_all_media" label="Comics" max_length="40" name="x_132308_myhomemed_comics" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Caption" max_length="128" name="u_comics_caption" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="972" name="u_comics_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Condition" max_length="40" name="u_comics_condition" type="string">
+            <choice>
+                <element label="Mint" sequence="0" value="mt"/>
+                <element label="Near Mint" sequence="1" value="nm"/>
+                <element label="Very Fine" sequence="2" value="vf"/>
+                <element label="Fine" sequence="3" value="fn"/>
+                <element label="Very Good" sequence="4" value="vg"/>
+                <element label="Good" sequence="5" value="gd"/>
+                <element label="Fair" sequence="6" value="fa"/>
+                <element label="Poor" sequence="7" value="po"/>
+            </choice>
+        </element>
+        <element label="Cover image" max_length="65536" name="u_comics_cover_image" type="html"/>
+        <element label="Cover price" max_length="15" name="u_comics_cover_price" type="decimal"/>
+        <element default="usd" label="Difference" max_length="15" name="u_comics_difference" read_only="true" type="decimal"/>
+        <element label="Estimated value" max_length="15" name="u_comics_estimated_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre" max_length="128" name="u_comics_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-10" max_length="14" name="u_comics_isbn_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-13" max_length="17" name="u_comics_isbn_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-8" max_length="12" name="u_comics_isbn_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue no." max_length="5" name="u_comics_issue_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cover month" max_length="40" name="u_comics_month" type="string">
+            <choice>
+                <element label="January" sequence="0" value="01"/>
+                <element label="February" sequence="1" value="02"/>
+                <element label="March" sequence="2" value="03"/>
+                <element label="April" sequence="3" value="04il"/>
+                <element label="May" sequence="4" value="05"/>
+                <element label="June" sequence="5" value="06"/>
+                <element label="July" sequence="6" value="07"/>
+                <element label="August" sequence="7" value="08"/>
+                <element label="September" sequence="8" value="09"/>
+                <element label="October" sequence="9" value="10"/>
+                <element label="November" sequence="10" value="11"/>
+                <element label="December" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="No. of pages" max_length="4" name="u_comics_no_of_pages" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publication date" max_length="40" name="u_comics_publication_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="40" name="u_comics_publisher" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher country" max_length="40" name="u_comics_publisher_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="usd" label="Record currency" max_length="40" name="u_comics_record_currency" type="string">
+            <choice>
+                <element label="$ USD" sequence="0" value="usd"/>
+                <element label="€ EURO" sequence="1" value="euro"/>
+                <element label="£ GBP" sequence="2" value="gbp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_comics_series" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stories" max_length="972" name="u_comics_stories" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Synopsis" max_length="972" name="u_comics_synopsis" type="string"/>
+        <element label="Title" max_length="128" name="u_comics_title" type="translated_text"/>
+        <element label="Trade paperback" max_length="40" name="u_comics_trade_paperback" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_comics_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cover year" max_length="4" name="u_comics_year" type="string"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

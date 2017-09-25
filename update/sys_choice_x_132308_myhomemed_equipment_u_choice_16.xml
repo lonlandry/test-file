@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_16" table="x_132308_myhomemed_equipment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>800 x 600</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7697f5d0f154300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1024 x 600</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b697f5d0f154300f06f4e9ce1050e57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1024 x 768</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87697f5d0f154300f06f4e9ce1050e58</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1152 x 864</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07697f5d0f154300f06f4e9ce1050e59</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1280 x 720</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83697f5d0f154300f06f4e9ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1280 x 768</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03697f5d0f154300f06f4e9ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1280 x 800</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f697f5d0f154300f06f4e9ce1050e5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1280 x 1024</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f697f5d0f154300f06f4e9ce1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1360 x 768</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b697f5d0f154300f06f4e9ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1366 x 768</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b697f5d0f154300f06f4e9ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1440 x 900</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87697f5d0f154300f06f4e9ce1050e5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1536 x 864</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07697f5d0f154300f06f4e9ce1050e60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1600 x  900</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83697f5d0f154300f06f4e9ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1680 x 1050</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03697f5d0f154300f06f4e9ce1050e62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1920 x 1080</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f697f5d0f154300f06f4e9ce1050e62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1920 x 1200</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f697f5d0f154300f06f4e9ce1050e63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2560 x 1080</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>16</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b697f5d0f154300f06f4e9ce1050e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2560 x 1440</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>17</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b697f5d0f154300f06f4e9ce1050e65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3440 x 1440</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>18</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87697f5d0f154300f06f4e9ce1050e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value>19</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3840 x 2160</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>19</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07697f5d0f154300f06f4e9ce1050e67</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:54:29</sys_updated_on>
+            <value> 20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_16</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:55:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16b9ff5d0f154300f06f4e9ce1050e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:55:47</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_16</element>
+            <name>x_132308_myhomemed_equipment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-18 20:54:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c3697f5d0f154300f06f4e9ce1050e57</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_choice_16</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_choice_x_132308_myhomemed_equipment_u_choice_16</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-18 20:55:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

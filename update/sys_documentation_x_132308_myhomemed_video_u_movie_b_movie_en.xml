@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_movie_b_movie" label="B movie?" language="en" table="x_132308_myhomemed_video">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_movie_b_movie</element>
+            <help/>
+            <hint/>
+            <label>B movie?</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_video</name>
+            <plural>B movies?</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 22:27:11</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>3368ded70f340300f06f4e9ce1050ec2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>B movie?</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_myhomemed_video_u_movie_b_movie_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-22 00:59:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

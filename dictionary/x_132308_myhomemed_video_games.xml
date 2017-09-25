@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="x_132308_myhomemed_all_media" label="What is this" max_length="40" name="x_132308_myhomemed_video_games" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="The unique record number assigned to this item." label="Record no." max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="512" name="u_video_games_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode no." max_length="20" name="u_video_games_episode_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode title" max_length="128" name="u_video_games_episode_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="File extension" max_length="5" name="u_video_games_file_extension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Game system type" max_length="64" name="u_video_games_game_sys_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre" max_length="64" name="u_video_games_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="64" name="u_video_games_language" type="string"/>
+        <element label="Multiplayer?" max_length="40" name="u_video_games_multiplayer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Music by" max_length="128" name="u_video_games_music_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="No. of players" max_length="40" name="u_video_games_no_players" type="string">
+            <choice>
+                <element label="2 Player" sequence="0" value="1p"/>
+                <element label="3 Player" sequence="1" value="3pl"/>
+                <element label="4 Player" sequence="2" value="4pl"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Producer" max_length="128" name="u_video_games_producer" type="string"/>
+        <element label="Game promo" max_length="65536" name="u_video_games_promo" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Rated" max_length="3" name="u_video_games_rated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="u_video_games_region" type="string"/>
+        <element label="Series?" max_length="40" name="u_video_games_series" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Series name" max_length="40" name="u_video_games_series_name" type="string"/>
+        <element label="Single player?" max_length="40" name="u_video_games_single_player" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Storage location" max_length="64" name="u_video_games_storage_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Studio" max_length="128" name="u_video_games_studio" type="string"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Synopsis" max_length="65536" name="u_video_games_synopsis" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Gaming system" max_length="64" name="u_video_games_sys" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="256" name="u_video_games_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="32" name="u_video_games_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year released" max_length="4" name="u_video_games_year_released" type="string"/>
+    </element>
+</database>

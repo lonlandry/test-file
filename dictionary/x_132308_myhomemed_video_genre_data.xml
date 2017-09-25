@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Video Genre data" max_length="40" name="x_132308_myhomemed_video_genre_data" type="collection">
+        <element attributes="import_attribute_name=Column Label,edge_encryption_enabled=true" label="Column Label" max_length="40" name="u_column_label" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="645f7a0a0f010300f06f4e9ce1050e3c" sys_domain="global" table="x_132308_myhomemed_all_media" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-24 14:37:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a09c1ddb0f9d8300f06f4e9ce1050e5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_myhomemed_all_media" name="x_132308_myhomemed_all_media" sys_domain="global" view="Default view">645f7a0a0f010300f06f4e9ce1050e3c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_myhomemed_all_media" sys_domain="global" view="Default view">109c1ddb0f9d8300f06f4e9ce1050e1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-24 14:37:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_132308_myhomemed_all_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-08 14:20:23</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>645f7a0a0f010300f06f4e9ce1050e3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_132308_myhomemed_all_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_645f7a0a0f010300f06f4e9ce1050e3c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-08 14:20:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

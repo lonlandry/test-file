@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Sys Choice" max_length="40" name="u_sys_choice" sizeclass="11261" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Action Drama" max_length="40" name="u_action_drama" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action / Adventure" max_length="40" name="u_action___adventure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Family Adventure" max_length="40" name="u_adventure___family" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Animated" max_length="40" name="u_animated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Animated - Children" max_length="40" name="u_animated___children_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Animated - Christmas" max_length="40" name="u_animated___christmas" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Animated - Drama" max_length="40" name="u_animated___drama" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Animated - Superhero" max_length="40" name="u_animated___superhero" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="B - Movie" max_length="40" name="u_b___movie" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Chick Flick" max_length="40" name="u_chick_flick" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Children's / Family" max_length="40" name="u_children_s___family" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Christmas" max_length="40" name="u_christmas" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Claymation" max_length="40" name="u_claymation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Column" max_length="40" name="u_column" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comedy" max_length="40" name="u_comedy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comedy Drama" max_length="40" name="u_comedy_drama" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Family Comedy" max_length="40" name="u_comedy_family" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comics / Graphic Novels" max_length="40" name="u_comics___graphic_novels" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cult Classic" max_length="40" name="u_cult_classic" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Documentary" max_length="40" name="u_documentary" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Drama" max_length="40" name="u_drama" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Educational" max_length="40" name="u_educational" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Epic" max_length="40" name="u_epic" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fantasy" max_length="40" name="u_fantasy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Historical Drama" max_length="40" name="u_historical_drama" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Historical Fiction" max_length="40" name="u_historical_fiction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Horror" max_length="40" name="u_horror" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Horror Thriller" max_length="40" name="u_horror_thriller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Musical" max_length="40" name="u_musical" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mystery" max_length="40" name="u_mystery" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Romance" max_length="40" name="u_romance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Romantic Comedy" max_length="40" name="u_romantic_comedy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Science Fiction" max_length="40" name="u_science_fiction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short" max_length="40" name="u_short" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Spy Film" max_length="40" name="u_spy_film" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Superhero" max_length="40" name="u_superhero" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Television" max_length="40" name="u_television" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Television - Animated" max_length="40" name="u_television___animated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Television - Comedy" max_length="40" name="u_television___comedy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Television - Series" max_length="40" name="u_television___series" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Television - Superhero" max_length="40" name="u_television___superhero" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Theater" max_length="40" name="u_theater" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Thriller" max_length="40" name="u_thriller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="War" max_length="40" name="u_war" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Western" max_length="40" name="u_western" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zombie" max_length="40" name="u_zombie" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="x_132308_myhomemed_all_media" label="equipo" max_length="40" name="x_132308_myhomemed_equipment" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="The unique record number assigned to this item." label="Record no." max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution" max_length="40" name="u_choice_16" type="string">
+            <choice>
+                <element label="800 x 600" sequence="0" value=" 1"/>
+                <element label="1024 x 600" sequence="1" value=" 2"/>
+                <element label="1024 x 768" sequence="2" value=" 3"/>
+                <element label="1152 x 864" sequence="3" value=" 4"/>
+                <element label="1280 x 720" sequence="4" value=" 5"/>
+                <element label="1280 x 768" sequence="5" value=" 6"/>
+                <element label="1280 x 800" sequence="6" value=" 7"/>
+                <element label="1280 x 1024" sequence="7" value=" 8"/>
+                <element label="1360 x 768" sequence="8" value=" 9"/>
+                <element label="1366 x 768" sequence="9" value=" 10"/>
+                <element label="1440 x 900" sequence="10" value=" 11"/>
+                <element label="1536 x 864" sequence="11" value=" 12"/>
+                <element label="1600 x  900" sequence="12" value=" 13"/>
+                <element label="1680 x 1050" sequence="13" value="14"/>
+                <element label="1920 x 1080" sequence="14" value="15"/>
+                <element label="1920 x 1200" sequence="15" value="16"/>
+                <element label="2560 x 1080" sequence="16" value="17"/>
+                <element label="2560 x 1440" sequence="17" value="18"/>
+                <element label="3440 x 1440" sequence="18" value="19"/>
+                <element label="3840 x 2160" sequence="19" value=" 20"/>
+                <element label="Other" sequence="20" value="21"/>
+            </choice>
+        </element>
+        <element label="Attachments" max_length="65536" name="u_equipment_attachments" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Color" max_length="64" name="u_equipment_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="4" label="Condition at purchase" max_length="40" name="u_equipment_condition_at_purch" type="string">
+            <choice>
+                <element label="New" sequence="0" value="1"/>
+                <element label="Like New" sequence="1" value="2"/>
+                <element label="Good" sequence="2" value="3"/>
+                <element label="Fair" sequence="3" value="4"/>
+                <element label="Poor" sequence="4" value="5"/>
+                <element label="Scrap" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Contact info." max_length="65536" name="u_equipment_contact_info" type="wiki_text"/>
+        <element label="Cost" max_length="15" name="u_equipment_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Coverage type" max_length="40" name="u_equipment_coverage_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="40" name="u_equipment_currency" type="string">
+            <choice>
+                <element label="$ COP" sequence="0" value="cop"/>
+                <element label="€ EURO" sequence="1" value="eur"/>
+                <element label="£ GBP" sequence="2" value="gbp"/>
+                <element label="R$ BRL" sequence="3" value="brl"/>
+                <element label="$ USD" sequence="4" value="usd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Current condition" max_length="40" name="u_equipment_current_condition" type="string">
+            <choice>
+                <element label="New" sequence="0" value="1"/>
+                <element label="Like New" sequence="1" value="2"/>
+                <element label="Good" sequence="2" value="3"/>
+                <element label="Fair" sequence="3" value="4"/>
+                <element label="Poor" sequence="4" value="5"/>
+                <element label="Scrap" sequence="5" value="6"/>
+            </choice>
+        </element>
+        <element label="Depreciated cost" max_length="15" name="u_equipment_depreciated_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_equipment_description" type="string"/>
+        <element label="Extension begin date" max_length="40" name="u_equipment_ext_begin_date" type="glide_date"/>
+        <element label="Extension end date" max_length="40" name="u_equipment_ext_end_date" type="glide_date"/>
+        <element label="Extended warranty?" max_length="40" name="u_equipment_ext_warranty" type="boolean"/>
+        <element label="Forward warranty" max_length="40" name="u_equipment_forward_warr" type="boolean"/>
+        <element label="Inherit warranty" max_length="40" name="u_equipment_inherit_warr" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Make" max_length="64" name="u_equipment_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="64" name="u_equipment_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Master warranty" max_length="40" name="u_equipment_master_warranty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="128" name="u_equipment_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Method of service" max_length="40" name="u_equipment_mos" type="string">
+            <choice>
+                <element label="On-Site" sequence="0" value="1"/>
+                <element label="Phone Support" sequence="1" value="2"/>
+                <element label="Shipped to Customer" sequence="2" value="3"/>
+                <element label="Shipped to Vendor" sequence="3" value="4"/>
+                <element label="Virtual Assistance" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Notes:" max_length="65536" name="u_equipment_notes" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Plan benefits" max_length="40" name="u_equipment_plan_benefits" type="string">
+            <choice>
+                <element label="Accidental Breakage" sequence="0" value="1"/>
+                <element label="Broken / Damaged Screen" sequence="1" value="2"/>
+                <element label="Environmental" sequence="2" value="3"/>
+                <element label="No Lemon Policy" sequence="3" value="4"/>
+                <element label="Power Surge" sequence="4" value="5"/>
+                <element label="Priority Service" sequence="5" value="6"/>
+                <element label="Technical Support" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element label="Purchase date" max_length="40" name="u_equipment_purchase_date" type="glide_date"/>
+        <element label="Refurbished?" max_length="40" name="u_equipment_refurbished" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="64" name="u_equipment_resolution_other" type="string"/>
+        <element label="RMA required?" max_length="40" name="u_equipment_rma_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial_no" max_length="64" name="u_equipment_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service plan no." max_length="40" name="u_equipment_service_plan" type="string"/>
+        <element label="Begin date" max_length="40" name="u_equipment_serv_begin" type="glide_date"/>
+        <element label="End date" max_length="40" name="u_equipment_serv_end" type="glide_date"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Notes:" max_length="65536" name="u_equipment_serv_notes" type="wiki_text"/>
+        <element label="Shipping costs?" max_length="40" name="u_equipment_ship_cost" type="boolean"/>
+        <element label="Shipping cost" max_length="15" name="u_equipment_ship_cost_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Equipment type" max_length="40" name="u_equipment_type" type="string">
+            <choice>
+                <element label="Laptop" sequence="0" value="la"/>
+                <element label="Microphone" sequence="1" value="mi"/>
+                <element label="Other" sequence="2" value="ot"/>
+                <element label="Projector" sequence="3" value="pr"/>
+                <element label="Projector Screen" sequence="4" value="ps"/>
+                <element label="Speakers" sequence="5" value="sp"/>
+                <element label="Tower PC" sequence="6" value="tp"/>
+                <element label="Whiteboard" sequence="7" value="wb"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other type" mandatory="true" max_length="64" name="u_equipment_type_other" type="string"/>
+        <element label="Value" max_length="15" name="u_equipment_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="128" name="u_equipment_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="i" label="Warranty type" max_length="40" name="u_equipment_warranty_type" type="string">
+            <choice>
+                <element label="Express" sequence="0" value="i"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_equipment_warr_class" type="string">
+            <choice>
+                <element label="Customer" sequence="0" value="c"/>
+                <element label="Manufacturer" sequence="1" value="m"/>
+                <element label="Vendor" sequence="2" value="v"/>
+            </choice>
+        </element>
+        <element label="Begin date" max_length="40" name="u_equipment_w_begin_date" type="glide_date"/>
+        <element label="End date" max_length="40" name="u_equipment_w_end_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_music_file_ext" table="x_132308_myhomemed_music" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_music_file_ext</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.cda</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c380b4e00f050300f06f4e9ce1050ed5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+            <value>cda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_music_file_ext</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.mp3</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0780b4e00f050300f06f4e9ce1050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+            <value>mp3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_music_file_ext</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.flac</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8380b4e00f050300f06f4e9ce1050ed7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+            <value>flac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_music_file_ext</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.ogg</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0380b4e00f050300f06f4e9ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+            <value>ogg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_music_file_ext</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.wav</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f80b4e00f050300f06f4e9ce1050ed8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+            <value>wav</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_music_file_ext</element>
+            <name>x_132308_myhomemed_music</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-03 12:05:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cf80b4e00f050300f06f4e9ce1050ed5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_music_file_ext</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_choice_x_132308_myhomemed_music_u_music_file_ext</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-03 12:05:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

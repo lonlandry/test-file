@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_comics_condition" table="x_132308_myhomemed_comics" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mint</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2aeef51f0ff00300f06f4e9ce1050e38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>mt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Near Mint</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaeef51f0ff00300f06f4e9ce1050e39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>nm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Fine</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2aeef51f0ff00300f06f4e9ce1050e3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>vf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fine</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6eef51f0ff00300f06f4e9ce1050e3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>fn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Good</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26eef51f0ff00300f06f4e9ce1050e3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>vg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Good</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2eef51f0ff00300f06f4e9ce1050e3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>gd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fair</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22eef51f0ff00300f06f4e9ce1050e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>fa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Poor</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeeef51f0ff00300f06f4e9ce1050e3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+            <value>po</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_comics_condition</element>
+            <name>x_132308_myhomemed_comics</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 20:35:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>66eef51f0ff00300f06f4e9ce1050e39</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_comics_condition</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_choice_x_132308_myhomemed_comics_u_comics_condition</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 20:35:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

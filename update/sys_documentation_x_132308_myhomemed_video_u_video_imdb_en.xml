@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_video_imdb" label="IMDB" language="en" table="x_132308_myhomemed_video">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_video_imdb</element>
+            <help/>
+            <hint/>
+            <label>IMDB</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_video</name>
+            <plural>IMDBs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 22:42:24</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>a2eb5a5b0f340300f06f4e9ce1050e8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IMDB</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_myhomemed_video_u_video_imdb_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-30 22:42:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

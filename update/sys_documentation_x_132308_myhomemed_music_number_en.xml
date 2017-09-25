@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="Record no." language="en" table="x_132308_myhomemed_music">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint>The unique record number assigned to this item.</hint>
+            <label>Record no.</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_music</name>
+            <plural>Record no.s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-30 18:46:22</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>45e5e9570f300300f06f4e9ce1050ed0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Record no.</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_myhomemed_music_number_en</sys_update_name>
+            <sys_updated_by>r.king</sys_updated_by>
+            <sys_updated_on>2017-09-23 15:18:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

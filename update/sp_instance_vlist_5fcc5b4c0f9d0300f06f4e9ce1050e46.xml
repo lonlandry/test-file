@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>u_video_title</display_field>
+        <field_list/>
+        <filter table="x_132308_myhomemed_video">pixar<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>video-camera</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">324814830f050300f06f4e9ce1050e44</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Unordered List">489a4b1bcb13020000f8d856634c9c67</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-14 21:37:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5fcc5b4c0f9d0300f06f4e9ce1050e46</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Movie titles</sys_name>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sp_instance_vlist_5fcc5b4c0f9d0300f06f4e9ce1050e46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-14 22:56:38</sys_updated_on>
+        <table>x_132308_myhomemed_video</table>
+        <title>Movie titles</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=5fcc5b4c0f9d0300f06f4e9ce1050e46"/>
+</record_update>

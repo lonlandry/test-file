@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>u_video_title</display_field>
+        <field_list>u_video_title</field_list>
+        <filter/>
+        <glyph>binoculars</glyph>
+        <id>video_search</id>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <short_description>This searches the comics table for Title, Issue no., and UPC.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">58993c715b7212000d7ec7ad31f91a4b</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table">5001b062d7101200b0b044580e6103eb</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-14 11:44:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c5359d840f990300f06f4e9ce1050e63</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Video Search</sys_name>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sp_instance_table_c5359d840f990300f06f4e9ce1050e63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-14 16:31:35</sys_updated_on>
+        <table>x_132308_myhomemed_video</table>
+        <title>Video Search</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5359d840f990300f06f4e9ce1050e63"/>
+</record_update>

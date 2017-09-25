@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="x_132308_myhomemed_all_media" label="Books" max_length="40" name="x_132308_myhomemed_books" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="El número de registro único asignado a este elemento." label="Record No." max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="u_book_author" type="string"/>
+        <element attributes="strip_html_in_pdf" label="Book cover" max_length="65536" name="u_book_book_cover" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Book type" max_length="40" name="u_book_book_type" type="string">
+            <choice>
+                <element label="Audio" sequence="0" value="audio"/>
+                <element label="Hardcover" sequence="1" value="hardcover"/>
+                <element label="Magazine" sequence="2" value="magazine"/>
+                <element label="Paperback" sequence="3" value="paperback"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="u_book_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_book_classification" type="choice">
+            <choice>
+                <element label="Fiction" sequence="0" value="f"/>
+                <element label="ficción" language="es" sequence="1" value="fi"/>
+                <element label="Nonfiction" sequence="2" value="n"/>
+                <element label="no ficción" language="es" sequence="3" value="nf"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="256" name="u_book_comments" type="string"/>
+        <element label="Cover price" max_length="15" name="u_book_cover_price" type="decimal"/>
+        <element label="Difference" max_length="15" name="u_book_difference" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Editor" max_length="64" name="u_book_editor" type="string"/>
+        <element label="Estimated value" max_length="15" name="u_book_estimated_value" type="decimal"/>
+        <element label="First edition" max_length="40" name="u_book_first_edition" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Genre" max_length="40" name="u_book_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Illustrations" max_length="40" name="u_book_illustrations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-10" max_length="14" name="u_book_isbn_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-13" max_length="17" name="u_book_isbn_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-8" max_length="12" name="u_book_isbn_8" type="string"/>
+        <element label="Prequel" max_length="40" name="u_book_prequel" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Book publisher" max_length="64" name="u_book_publisher" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="usd" label="Record currency" max_length="40" name="u_book_record_currency" type="string">
+            <choice>
+                <element label="$ USD" sequence="0" value="usd"/>
+                <element label="€ EURO" sequence="1" value="euro"/>
+                <element label="£ GBP" sequence="2" value="gbp"/>
+            </choice>
+        </element>
+        <element label="Sequel" max_length="40" name="u_book_sequel" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_book_series" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Synopsis" max_length="972" name="u_book_synopsis" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="256" name="u_book_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_book_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year printed" max_length="4" name="u_book_year_printed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year released" max_length="4" name="u_book_year_released" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>?</description>
+        <field>u_equipment_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Equipment - </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //If there is a change on the form
+   if (!isLoading) {
+      //If the new value is a variation of NA
+      if(newValue == 'None' || 'Laptop' || 'Speakers') {
+   //Hide: Series name, epsisode title, Episode no.
+   //Show: Series?
+         g_form.setDisplay('u_equipment_type_other', false);
+	
+		 
+		 
+      }
+      
+      }
+   }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-19 19:13:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc2b20710fd10300f06f4e9ce1050ef4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Equipment - </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sys_script_client_fc2b20710fd10300f06f4e9ce1050ef4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-19 19:28:57</sys_updated_on>
+        <table>x_132308_myhomemed_equipment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

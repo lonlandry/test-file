@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_comics_record_currency" table="x_132308_myhomemed_comics" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_record_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>$ USD</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-07 04:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f2f2bad0f014300f06f4e9ce1050e34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-07 04:32:30</sys_updated_on>
+            <value>usd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_record_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>€ EURO</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-07 04:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>532f2bad0f014300f06f4e9ce1050e36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-07 04:32:30</sys_updated_on>
+            <value>euro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_comics_record_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>£ GBP</label>
+            <language>en</language>
+            <name>x_132308_myhomemed_comics</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-07 04:32:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df2f2bad0f014300f06f4e9ce1050e36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-07 04:32:30</sys_updated_on>
+            <value>gbp</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_comics_record_currency</element>
+            <name>x_132308_myhomemed_comics</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-07 04:32:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1f2f2bad0f014300f06f4e9ce1050e35</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_comics_record_currency</sys_name>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_choice_x_132308_myhomemed_comics_u_comics_record_currency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-07 04:32:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

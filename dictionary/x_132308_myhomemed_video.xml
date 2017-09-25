@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="x_132308_myhomemed_all_media" label="Video" max_length="40" name="x_132308_myhomemed_video" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="El número de registro único asignado a este elemento." label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element label="B movie?" max_length="40" name="u_movie_b_movie" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Audio" max_length="40" name="u_video_audio" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Codec" max_length="40" name="u_video_codec" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="u_video_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Director" max_length="40" name="u_video_director" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode no." max_length="40" name="u_video_episode_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode title" max_length="40" name="u_video_episode_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="File extension" max_length="40" name="u_video_file_extension" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Format" max_length="40" name="u_video_format" type="string">
+            <choice>
+                <element label="Blu-ray" sequence="0" value="000"/>
+                <element label="Blu-ray &amp; DVD" sequence="1" value="a"/>
+                <element label="Blu-ray / Digital / DVD" sequence="2" value="b"/>
+                <element label="Digital" sequence="3" value="03"/>
+                <element label="Digital &amp; DVD" sequence="4" value="04"/>
+                <element label="Digital &amp; VHS" sequence="5" value="05"/>
+                <element label="DVD" sequence="6" value="06"/>
+                <element label="Network" sequence="7" value="065"/>
+                <element label="Network DVD" sequence="8" value="07"/>
+                <element label="VHS" sequence="9" value="08"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Genre" max_length="40" name="u_video_genre" type="string">
+            <choice>
+                <element label="acción aventura" language="es" value="1"/>
+                <element label="animado" language="es" value="3"/>
+                <element label="animado - drama" language="es" value="6"/>
+                <element label="animado - navidad" language="es" value="5"/>
+                <element label="animado - superhéroe" language="es" value="7"/>
+                <element label="animated - niños" language="es" value="4"/>
+                <element label="aventura familiar" language="es" value="20"/>
+                <element label="ciencia ficción" language="es" value="31"/>
+                <element label="clásico del culto" language="es" value="15"/>
+                <element label="claymation" language="es" value="11"/>
+                <element label="comedia" language="es" value="12"/>
+                <element label="comedia dramática" language="es" value="13"/>
+                <element label="comedia familiar" language="es" value="21"/>
+                <element label="comedia romántica" language="es" value="30"/>
+                <element label="comics / novelas gráficas" language="es" value="14"/>
+                <element label="corto" language="es" value="32"/>
+                <element label="documental" language="es" value="16"/>
+                <element label="drama" language="es" value="17"/>
+                <element label="drama de acción" language="es" value="2"/>
+                <element label="drama histórico" language="es" value="23"/>
+                <element label="educativo" language="es" value="18"/>
+                <element label="épico" language="es" value="19"/>
+                <element label="fantasía" language="es" value="22"/>
+                <element label="ficción histórica" language="es" value="24"/>
+                <element label="guerra" language="es" value="42"/>
+                <element label="horror" language="es" value="25"/>
+                <element label="horror suspenso" language="es" value="26"/>
+                <element label="misterio" language="es" value="28"/>
+                <element label="musical" language="es" value="27"/>
+                <element label="navidad" language="es" value="10"/>
+                <element label="niños / familia" language="es" value="9"/>
+                <element label="novela de suspenso" language="es" value="41"/>
+                <element label="película de espionaje" language="es" value="33"/>
+                <element label="pelicula de vaqueros" language="es" value="43"/>
+                <element label="película para chicas" language="es" value="8"/>
+                <element label="romance" language="es" value="29"/>
+                <element label="series de televisión" language="es" value="38"/>
+                <element label="superhéroe" language="es" value="34"/>
+                <element label="teatro" language="es" value="40"/>
+                <element label="televisión" language="es" value="35"/>
+                <element label="televisión - animación" language="es" value="36"/>
+                <element label="televisión - comedia" language="es" value="37"/>
+                <element label="televisión - superhéroe" language="es" value="39"/>
+                <element label="zombi" language="es" value="44"/>
+                <element label="Action / Adventure" sequence="0" value="1"/>
+                <element label="Adventure - Family" sequence="1" value="2"/>
+                <element label="Aventura - Familia" language="es" sequence="1" value="2"/>
+                <element label="Action Drama" sequence="2" value="3"/>
+                <element label="Animated" sequence="3" value="4"/>
+                <element label="Animated - Children's" sequence="4" value="5"/>
+                <element label="Animated - Christmas" sequence="5" value="6"/>
+                <element label="Animated - Drama" sequence="6" value="7"/>
+                <element label="Animated - Superhero" sequence="7" value="8"/>
+                <element label="Chick Flick" sequence="8" value="9"/>
+                <element label="Children's / Family" sequence="9" value="10"/>
+                <element label="Christmas" sequence="10" value="11"/>
+                <element label="Claymation" sequence="11" value="12"/>
+                <element label="Comedy" sequence="12" value="13"/>
+                <element label="Comedy Drama" sequence="13" value="14"/>
+                <element label="Comedy Family" sequence="14" value="15"/>
+                <element label="Comics / Graphic Novels" sequence="15" value="16"/>
+                <element label="Cult Classic" sequence="16" value="17"/>
+                <element label="Documentary" sequence="17" value="18"/>
+                <element label="Drama" sequence="18" value="19"/>
+                <element label="Educational" sequence="19" value="20"/>
+                <element label="Epic" sequence="20" value="21"/>
+                <element label="Fantasy" sequence="21" value="22"/>
+                <element label="Historical Drama" sequence="22" value="23"/>
+                <element label="Historical Fiction" sequence="23" value="24"/>
+                <element label="Horror" sequence="24" value="25"/>
+                <element label="Horror Thriller" sequence="25" value="26"/>
+                <element label="Musical" sequence="26" value="27"/>
+                <element label="Mystery" sequence="27" value="28"/>
+                <element label="Romantic Comedy" sequence="29" value="30"/>
+                <element label="Science Fiction" sequence="30" value="31"/>
+                <element label="Short" sequence="31" value="32"/>
+                <element label="Spy Film" sequence="32" value="33"/>
+                <element label="Superhero" sequence="33" value="34"/>
+                <element label="Television" sequence="34" value="35"/>
+                <element label="Television - Animated" sequence="35" value="36"/>
+                <element label="Television - Comedy" sequence="36" value="37"/>
+                <element label="Television - Series" sequence="37" value="38"/>
+                <element label="Television - Superhero" sequence="38" value="39"/>
+                <element label="Theater" sequence="39" value="40"/>
+                <element label="Thriller" sequence="40" value="41"/>
+                <element label="War" sequence="41" value="42"/>
+                <element label="Western" sequence="42" value="43"/>
+                <element label="Zombie" sequence="43" value="44"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="IMDB" max_length="9" name="u_video_imdb" type="string"/>
+        <element label="Movie poster" max_length="65536" name="u_video_movie_poster" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Music by" max_length="40" name="u_video_music_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Presentation Format" max_length="40" name="u_video_presentation_format" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Producer" max_length="40" name="u_video_producer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rated" max_length="40" name="u_video_rated" type="string"/>
+        <element label="Series?" max_length="40" name="u_video_series" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_video_series_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Storage location" max_length="40" name="u_video_storage_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Studio or distributor" max_length="40" name="u_video_studio_distributor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subtitles" max_length="40" name="u_video_subtitles" type="string"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Synopsis" max_length="65536" name="u_video_synopsis" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_video_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_video_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year released" max_length="40" name="u_video_year_released" type="string"/>
+    </element>
+</database>

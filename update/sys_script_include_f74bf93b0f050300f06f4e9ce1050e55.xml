@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_132308_myhomemed.Comics - calculate Difference field</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Comics - calculate Difference field</name>
+        <script><![CDATA[//Sets values for  u_comics_estimated_value and u_comics_cover_price
+//Create a variable newtotal and subtract u_comics_cover_price from u_comics_estimated_value
+//Display the varible  newtotal
+      var est = current.u_comics_estimated_value;  
+      var cov = current.u_comics_cover_price;  
+      
+      var newtotal = est - cov;  
+      
+      setValue(current.u_comics_difference, newtotal); ]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-13 19:53:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f74bf93b0f050300f06f4e9ce1050e55</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Comics - calculate Difference field</sys_name>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sys_script_include_f74bf93b0f050300f06f4e9ce1050e55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-13 20:15:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

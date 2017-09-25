@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Music Data" max_length="40" name="x_132308_myhomemed_music_data" type="collection">
+        <element attributes="import_attribute_name=Album,edge_encryption_enabled=true" label="Album" max_length="89" name="u_album" type="string"/>
+        <element attributes="import_attribute_name=Album Cover,edge_encryption_enabled=true" label="Album Cover" max_length="40" name="u_album_cover" type="string"/>
+        <element attributes="import_attribute_name=Artist / Group,edge_encryption_enabled=true" label="Artist / Group" max_length="40" name="u_artist___group" type="string"/>
+        <element attributes="import_attribute_name=Audio format,edge_encryption_enabled=true" label="Audio format" max_length="40" name="u_audio_format" type="string"/>
+        <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element attributes="import_attribute_name=Composer,edge_encryption_enabled=true" label="Composer" max_length="40" name="u_composer" type="string"/>
+        <element attributes="import_attribute_name=Disc no.,edge_encryption_enabled=true" label="Disc no." max_length="40" name="u_disc_no_" type="string"/>
+        <element attributes="import_attribute_name=Duration,edge_encryption_enabled=true" label="Duration" max_length="40" name="u_duration" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Duration min." max_length="40" name="u_duration_min_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Duration sec." max_length="40" name="u_duration_sec_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="File extension" max_length="40" name="u_file_extension" type="string"/>
+        <element attributes="import_attribute_name=File ext.,edge_encryption_enabled=true" label="File ext." max_length="40" name="u_file_ext_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Format" max_length="40" name="u_format" type="string"/>
+        <element attributes="import_attribute_name=Genre,edge_encryption_enabled=true" label="Genre" max_length="40" name="u_genre" type="string"/>
+        <element attributes="import_attribute_name=ISRC,edge_encryption_enabled=true" label="ISRC" max_length="40" name="u_isrc" type="string"/>
+        <element attributes="import_attribute_name=Language,edge_encryption_enabled=true" label="Language" max_length="40" name="u_language" type="string"/>
+        <element attributes="import_attribute_name=Lyrics,edge_encryption_enabled=true" label="Lyrics" max_length="40" name="u_lyrics" type="string"/>
+        <element attributes="import_attribute_name=Lyrics?,edge_encryption_enabled=true" label="Lyrics?" max_length="40" name="u_lyrics_" type="string"/>
+        <element attributes="import_attribute_name=Music Label,edge_encryption_enabled=true" label="Music Label" max_length="40" name="u_music_label" type="string"/>
+        <element attributes="import_attribute_name=Record no.,edge_encryption_enabled=true" label="Record no." max_length="40" name="u_record_no_" type="string"/>
+        <element attributes="import_attribute_name=Single?,edge_encryption_enabled=true" label="Single?" max_length="40" name="u_single_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Song title" max_length="40" name="u_song_title" type="string"/>
+        <element attributes="import_attribute_name=Storage location,edge_encryption_enabled=true" label="Storage location" max_length="75" name="u_storage_location" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="46" name="u_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_upc" type="string"/>
+        <element attributes="import_attribute_name=Written by,edge_encryption_enabled=true" label="Written by" max_length="40" name="u_written_by" type="string"/>
+        <element attributes="import_attribute_name=Year Released,edge_encryption_enabled=true" label="Year Released" max_length="40" name="u_year_released" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Video Games" section_id="cc6f07540f110300f06f4e9ce1050e2c" sys_domain="global" table="x_132308_myhomemed_video_games" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>228da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_genre</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a28da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_music_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>268da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_producer</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a68da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_series</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2a8da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_series_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>aa8da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_episode_no</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2e8da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_episode_title</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>ae8da7d00f510300f06f4e9ce1050e51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_year_released</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>228da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_single_player</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a28da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_multiplayer</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>268da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_no_players</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a68da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_studio</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2a8da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_synopsis</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>aa8da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2e8da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>ae8da7d00f510300f06f4e9ce1050e52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_promo</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>228da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_game_sys_type</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a28da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_sys</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>268da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_language</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a68da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_region</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2a8da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_rated</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>aa8da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_file_extension</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>2e8da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_storage_location</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>ae8da7d00f510300f06f4e9ce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_upc</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>228da7d00f510300f06f4e9ce1050e54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_comments</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 17:28:38</sys_created_on>
+            <sys_id>a28da7d00f510300f06f4e9ce1050e54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Video Games" display_value="Video Games" name="x_132308_myhomemed_video_games" sys_domain="global" view="Default view">cc6f07540f110300f06f4e9ce1050e2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 17:28:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Video Games</caption>
+            <header>false</header>
+            <name>x_132308_myhomemed_video_games</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-15 15:16:50</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc6f07540f110300f06f4e9ce1050e2c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Video Games</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+            <sys_update_name>sys_ui_section_cc6f07540f110300f06f4e9ce1050e2c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-15 16:02:28</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
