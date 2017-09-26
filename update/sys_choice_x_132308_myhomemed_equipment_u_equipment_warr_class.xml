@@ -6,6 +6,25 @@
             <element>u_equipment_warr_class</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Cliente</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3869013b0f5dc300f06f4e9ce1050e30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_warr_class</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Customer</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -25,6 +44,25 @@
             <element>u_equipment_warr_class</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Fabricante</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f069013b0f5dc300f06f4e9ce1050e31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_warr_class</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Manufacturer</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -38,6 +76,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
             <value>m</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_warr_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vendedor</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc69013b0f5dc300f06f4e9ce1050e31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>v</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

@@ -25,6 +25,7 @@
                 <element label="3440 x 1440" sequence="18" value="19"/>
                 <element label="3840 x 2160" sequence="19" value=" 20"/>
                 <element label="Other" sequence="20" value="21"/>
+                <element label="Otro" language="es" sequence="20" value="21"/>
             </choice>
         </element>
         <element label="Attachments" max_length="65536" name="u_equipment_attachments" type="html"/>
@@ -32,10 +33,16 @@
         <element attributes="edge_encryption_enabled=true" choice="1" default="4" label="Condition at purchase" max_length="40" name="u_equipment_condition_at_purch" type="string">
             <choice>
                 <element label="New" sequence="0" value="1"/>
+                <element label="Nuevo" language="es" sequence="0" value="1"/>
+                <element label="Como nuevo" language="es" sequence="1" value="2"/>
                 <element label="Like New" sequence="1" value="2"/>
+                <element label="Bueno" language="es" sequence="2" value="3"/>
                 <element label="Good" sequence="2" value="3"/>
                 <element label="Fair" sequence="3" value="4"/>
+                <element label="Regular" language="es" sequence="3" value="4"/>
+                <element label="Peor" language="es" sequence="4" value="5"/>
                 <element label="Poor" sequence="4" value="5"/>
+                <element label="Chatarra" language="es" sequence="5" value="6"/>
                 <element label="Scrap" sequence="5" value="6"/>
             </choice>
         </element>
@@ -45,19 +52,30 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="40" name="u_equipment_currency" type="string">
             <choice>
                 <element label="$ COP" sequence="0" value="cop"/>
+                <element label="$ COP" language="es" sequence="0" value="cop"/>
                 <element label="€ EURO" sequence="1" value="eur"/>
+                <element label="€ EURO" language="es" sequence="1" value="eur"/>
                 <element label="£ GBP" sequence="2" value="gbp"/>
+                <element label="£ Libra" language="es" sequence="2" value="gbp"/>
                 <element label="R$ BRL" sequence="3" value="brl"/>
+                <element label="R$ BRL" language="es" sequence="3" value="brl"/>
+                <element label="$ USD" language="es" sequence="4" value="usd"/>
                 <element label="$ USD" sequence="4" value="usd"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Current condition" max_length="40" name="u_equipment_current_condition" type="string">
             <choice>
                 <element label="New" sequence="0" value="1"/>
+                <element label="Nuevo" language="es" sequence="0" value="1"/>
+                <element label="Como nuevo" language="es" sequence="1" value="2"/>
                 <element label="Like New" sequence="1" value="2"/>
+                <element label="Bueno" language="es" sequence="2" value="3"/>
                 <element label="Good" sequence="2" value="3"/>
                 <element label="Fair" sequence="3" value="4"/>
+                <element label="Regular" language="es" sequence="3" value="4"/>
+                <element label="Peor" language="es" sequence="4" value="5"/>
                 <element label="Poor" sequence="4" value="5"/>
+                <element label="Chatarra" language="es" sequence="5" value="6"/>
                 <element label="Scrap" sequence="5" value="6"/>
             </choice>
         </element>
@@ -74,10 +92,15 @@
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="128" name="u_equipment_model" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Method of service" max_length="40" name="u_equipment_mos" type="string">
             <choice>
+                <element label="En el sitio" language="es" sequence="0" value="1"/>
                 <element label="On-Site" sequence="0" value="1"/>
                 <element label="Phone Support" sequence="1" value="2"/>
-                <element label="Shipped to Customer" sequence="2" value="3"/>
-                <element label="Shipped to Vendor" sequence="3" value="4"/>
+                <element label="Soporte telefónico" language="es" sequence="1" value="2"/>
+                <element label="Enviado al cliente" language="es" sequence="2" value="3"/>
+                <element label="Ship to Customer" sequence="2" value="3"/>
+                <element label="Enviar al vendedor" language="es" sequence="3" value="4"/>
+                <element label="Ship to Vendor" sequence="3" value="4"/>
+                <element label="Asistencia Virtual" language="es" sequence="4" value="5"/>
                 <element label="Virtual Assistance" sequence="4" value="5"/>
             </choice>
         </element>
@@ -85,18 +108,25 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Plan benefits" max_length="40" name="u_equipment_plan_benefits" type="string">
             <choice>
                 <element label="Accidental Breakage" sequence="0" value="1"/>
+                <element label="Rotura accidental" language="es" sequence="0" value="1"/>
                 <element label="Broken / Damaged Screen" sequence="1" value="2"/>
+                <element label="Pantalla rota / dañada" language="es" sequence="1" value="2"/>
+                <element label="Ambiental" language="es" sequence="2" value="3"/>
                 <element label="Environmental" sequence="2" value="3"/>
                 <element label="No Lemon Policy" sequence="3" value="4"/>
+                <element label="Política no-limón (sólo para EE.UU.)" language="es" sequence="3" value="4"/>
                 <element label="Power Surge" sequence="4" value="5"/>
+                <element label="Sobrecarga de energía" language="es" sequence="4" value="5"/>
                 <element label="Priority Service" sequence="5" value="6"/>
+                <element label="Servicio Prioritario" language="es" sequence="5" value="6"/>
+                <element label="Soporte técnico" language="es" sequence="6" value="7"/>
                 <element label="Technical Support" sequence="6" value="7"/>
             </choice>
         </element>
         <element label="Purchase date" max_length="40" name="u_equipment_purchase_date" type="glide_date"/>
         <element label="Refurbished?" max_length="40" name="u_equipment_refurbished" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="64" name="u_equipment_resolution_other" type="string"/>
-        <element label="RMA required?" max_length="40" name="u_equipment_rma_required" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="64" name="u_equipment_resolution_other" type="string"/>
+        <element hint="ARM Autorización de Retorno de Mercancía" label="RMA required?" max_length="40" name="u_equipment_rma_required" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Serial_no" max_length="64" name="u_equipment_serial_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Service plan no." max_length="40" name="u_equipment_service_plan" type="string"/>
         <element label="Begin date" max_length="40" name="u_equipment_serv_begin" type="glide_date"/>
@@ -107,27 +137,45 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Equipment type" max_length="40" name="u_equipment_type" type="string">
             <choice>
                 <element label="Laptop" sequence="0" value="la"/>
+                <element label="Ordenador portátil" language="es" sequence="0" value="la"/>
+                <element label="Micrófono" language="es" sequence="1" value="mi"/>
                 <element label="Microphone" sequence="1" value="mi"/>
-                <element label="Other" sequence="2" value="ot"/>
-                <element label="Projector" sequence="3" value="pr"/>
-                <element label="Projector Screen" sequence="4" value="ps"/>
-                <element label="Speakers" sequence="5" value="sp"/>
-                <element label="Tower PC" sequence="6" value="tp"/>
-                <element label="Whiteboard" sequence="7" value="wb"/>
+                <element label="Monitor" sequence="2" value="mo"/>
+                <element label="Monitor" language="es" sequence="2" value="mo"/>
+                <element label="Other" sequence="3" value="ot"/>
+                <element label="Otro" language="es" sequence="3" value="ot"/>
+                <element label="Projector" sequence="4" value="pr"/>
+                <element label="Proyector (Video-Bean)" language="es" sequence="4" value="pr"/>
+                <element label="Pantalla de proyección" language="es" sequence="5" value="ps"/>
+                <element label="Projector Screen" sequence="5" value="ps"/>
+                <element label="Altavoces" language="es" sequence="6" value="sp"/>
+                <element label="Speakers" sequence="6" value="sp"/>
+                <element label="Televisión" language="es" sequence="7" value="te"/>
+                <element label="Television" sequence="7" value="te"/>
+                <element label="Torre PC" language="es" sequence="8" value="tp"/>
+                <element label="Tower PC" sequence="8" value="tp"/>
+                <element label="Pizarra blanca" language="es" sequence="9" value="wb"/>
+                <element label="Whiteboard" sequence="9" value="wb"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Other type" mandatory="true" max_length="64" name="u_equipment_type_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_equipment_type_other" dependent_on_field="u_equipment_type_other" label="Other type" max_length="64" name="u_equipment_type_other" type="string" use_dependent_field="true"/>
         <element label="Value" max_length="15" name="u_equipment_value" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="128" name="u_equipment_vendor" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="i" label="Warranty type" max_length="40" name="u_equipment_warranty_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Warranty type" max_length="40" name="u_equipment_warranty_type" type="string">
             <choice>
-                <element label="Express" sequence="0" value="i"/>
+                <element label="Express Warranty" sequence="0" value="ew"/>
+                <element label="Garantía expresa" language="es" sequence="0" value="ew"/>
+                <element label="Garantía implícita" language="es" sequence="0" value="iw"/>
+                <element label="Implied Warranty" sequence="1" value="iw"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_equipment_warr_class" type="string">
             <choice>
+                <element label="Cliente" language="es" sequence="0" value="c"/>
                 <element label="Customer" sequence="0" value="c"/>
+                <element label="Fabricante" language="es" sequence="1" value="m"/>
                 <element label="Manufacturer" sequence="1" value="m"/>
+                <element label="Vendedor" language="es" sequence="2" value="v"/>
                 <element label="Vendor" sequence="2" value="v"/>
             </choice>
         </element>

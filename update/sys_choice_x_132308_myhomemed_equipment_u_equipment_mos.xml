@@ -6,6 +6,25 @@
             <element>u_equipment_mos</element>
             <hint/>
             <inactive>false</inactive>
+            <label>En el sitio</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7469013b0f5dc300f06f4e9ce1050e1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_mos</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>On-Site</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -44,7 +63,45 @@
             <element>u_equipment_mos</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Shipped to Customer</label>
+            <label>Soporte telefónico</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3069013b0f5dc300f06f4e9ce1050e1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_mos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enviado al cliente</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3469013b0f5dc300f06f4e9ce1050e1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_mos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ship to Customer</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
             <sequence>2</sequence>
@@ -53,9 +110,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>937a6ee70f19c300f06f4e9ce1050e75</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,7 +120,26 @@
             <element>u_equipment_mos</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Shipped to Vendor</label>
+            <label>Enviar al vendedor</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc69013b0f5dc300f06f4e9ce1050e1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_mos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ship to Vendor</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
             <sequence>3</sequence>
@@ -72,10 +148,29 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>137a6ee70f19c300f06f4e9ce1050e76</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_mos</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asistencia Virtual</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b869013b0f5dc300f06f4e9ce1050e20</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
-            <value>4</value>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

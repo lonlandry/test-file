@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_choice_16</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-25 23:27:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9b7f18730f1dc300f06f4e9ce1050ec1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_choice_16</sys_name>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9b7f18730f1dc300f06f4e9ce1050ec1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-25 23:30:59</sys_updated_on>
+        <table>x_132308_myhomemed_equipment</table>
+        <ui_policy display_value="Equipment - Display Resolution field">b51f1c330f1dc300f06f4e9ce1050efa</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

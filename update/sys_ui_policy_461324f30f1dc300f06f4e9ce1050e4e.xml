@@ -2,10 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_132308_myhomemed_video">u_video_series_name=na^ORu_video_series_name=NA^ORu_video_series_name=N/A^ORu_video_series_name=n/a^EQ<item endquery="false" field="u_video_series_name" goto="false" newquery="false" operator="=" or="false" value="na"/>
-            <item endquery="false" field="u_video_series_name" goto="false" newquery="false" operator="=" or="true" value="NA"/>
-            <item endquery="false" field="u_video_series_name" goto="false" newquery="false" operator="=" or="true" value="N/A"/>
-            <item endquery="false" field="u_video_series_name" goto="false" newquery="false" operator="=" or="true" value="n/a"/>
+        <conditions table="x_132308_myhomemed_equipment">u_choice_16!=21^EQ<item endquery="false" field="u_choice_16" goto="false" newquery="false" operator="!=" or="false" value="21"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -13,37 +10,37 @@
         <inherit>false</inherit>
         <model_id/>
         <model_table/>
-        <on_load>false</on_load>
-        <order>2250</order>
+        <on_load>true</on_load>
+        <order>3300</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-g_form.clearValue('u_video_series_name');
+g_form.clearValue('u_equipment_resolution_other');
 }]]></script_true>
         <set_values/>
-        <short_description>Video - Clear NA from Series field </short_description>
+        <short_description>Equipment - Clear Otherield if Other is not selected  in the Resolution field</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-09-19 17:43:56</sys_created_on>
+        <sys_created_on>2017-09-25 23:44:47</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d2e6d0390f910300f06f4e9ce1050ee4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Video - Clear NA from Series field </sys_name>
+        <sys_id>461324f30f1dc300f06f4e9ce1050e4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equipment - Clear Otherield if Other is not selected  in the Resolution field</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
-        <sys_update_name>sys_ui_policy_d2e6d0390f910300f06f4e9ce1050ee4</sys_update_name>
+        <sys_update_name>sys_ui_policy_461324f30f1dc300f06f4e9ce1050e4e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-25 21:32:09</sys_updated_on>
-        <table>x_132308_myhomemed_video</table>
-        <ui_type>10</ui_type>
+        <sys_updated_on>2017-09-25 23:49:44</sys_updated_on>
+        <table>x_132308_myhomemed_equipment</table>
+        <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

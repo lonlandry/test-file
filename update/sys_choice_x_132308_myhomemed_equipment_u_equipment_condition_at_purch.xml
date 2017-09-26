@@ -25,6 +25,44 @@
             <element>u_equipment_condition_at_purch</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Nuevo</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a869013b0f5dc300f06f4e9ce1050e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Como nuevo</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6469013b0f5dc300f06f4e9ce1050e11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Like New</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -38,6 +76,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-18 22:23:42</sys_updated_on>
             <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bueno</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2069013b0f5dc300f06f4e9ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -82,6 +139,44 @@
             <element>u_equipment_condition_at_purch</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Regular</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e869013b0f5dc300f06f4e9ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Peor</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b469013b0f5dc300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Poor</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -95,6 +190,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-18 22:23:42</sys_updated_on>
             <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_condition_at_purch</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chatarra</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7069013b0f5dc300f06f4e9ce1050e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

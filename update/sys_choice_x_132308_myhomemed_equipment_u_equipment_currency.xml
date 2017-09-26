@@ -25,6 +25,25 @@
             <element>u_equipment_currency</element>
             <hint/>
             <inactive>false</inactive>
+            <label>$ COP</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c69013b0f5dc300f06f4e9ce1050e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>cop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_currency</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>€ EURO</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -37,6 +56,25 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
+            <value>eur</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>€ EURO</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f469013b0f5dc300f06f4e9ce1050e15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
             <value>eur</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,6 +101,25 @@
             <element>u_equipment_currency</element>
             <hint/>
             <inactive>false</inactive>
+            <label>£ Libra</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b069013b0f5dc300f06f4e9ce1050e16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>gbp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_currency</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>R$ BRL</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -76,6 +133,44 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:58</sys_updated_on>
             <value>brl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>R$ BRL</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c69013b0f5dc300f06f4e9ce1050e16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>brl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>$ USD</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3869013b0f5dc300f06f4e9ce1050e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>usd</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

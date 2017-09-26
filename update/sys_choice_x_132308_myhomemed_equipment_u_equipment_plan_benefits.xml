@@ -25,6 +25,25 @@
             <element>u_equipment_plan_benefits</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Rotura accidental</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7469013b0f5dc300f06f4e9ce1050e21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Broken / Damaged Screen</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -38,6 +57,44 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
             <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pantalla rota / dañada</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3069013b0f5dc300f06f4e9ce1050e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ambiental</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f869013b0f5dc300f06f4e9ce1050e22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -82,6 +139,25 @@
             <element>u_equipment_plan_benefits</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Política no-limón (sólo para EE.UU.)</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b469013b0f5dc300f06f4e9ce1050e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Power Surge</label>
             <language>en</language>
             <name>x_132308_myhomemed_equipment</name>
@@ -94,6 +170,25 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sobrecarga de energía</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7069013b0f5dc300f06f4e9ce1050e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -114,6 +209,44 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-09-25 14:55:57</sys_updated_on>
             <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Servicio Prioritario</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c69013b0f5dc300f06f4e9ce1050e24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_equipment_plan_benefits</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Soporte técnico</label>
+            <language>es</language>
+            <name>x_132308_myhomemed_equipment</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-26 02:30:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f469013b0f5dc300f06f4e9ce1050e25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-09-26 02:30:11</sys_updated_on>
+            <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
