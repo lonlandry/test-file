@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_country_name</col_name_string>
+        <index_col_name>0cbcf9ed0f654300f06f4e9ce1050ece</index_col_name>
+        <logical_table_name>x_132308_myhomemed_countries</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-01 17:02:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>940182e10fa54300f06f4e9ce1050e4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_132308_myhomemed_countries</sys_name>
+        <sys_package display_value="MyHomeMediaNow" source="x_132308_myhomemed">1c6f0a070f700300f06f4e9ce1050e4d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MyHomeMediaNow">1c6f0a070f700300f06f4e9ce1050e4d</sys_scope>
+        <sys_update_name>sys_index_x_132308_myhomemed_countries_u_country_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-01 17:02:33</sys_updated_on>
+        <table/>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

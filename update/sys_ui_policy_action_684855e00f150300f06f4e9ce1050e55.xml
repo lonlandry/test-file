@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-09-16 01:19:04</sys_updated_on>
         <table>x_132308_myhomemed_books</table>
-        <ui_policy display_value="Books - If Classification field is Fiction then display Genre field">4cf555a00f150300f06f4e9ce1050e0a</ui_policy>
+        <ui_policy display_value="Books - If Classification field is Fiction then display Genre.">4cf555a00f150300f06f4e9ce1050e0a</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

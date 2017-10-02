@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_132308_myhomemed.all_media_user,x_132308_myhomemed.books_user,x_132308_myhomemed.comics_user,x_132308_myhomemed.equipment_user,x_132308_myhomemed.music_user,x_132308_myhomemed.other_user,x_132308_myhomemed.video_games_user,x_132308_myhomemed.video_genre_user,x_132308_myhomemed.video_user</roles>
+        <roles>x_132308_myhomemed.all_media_user,x_132308_myhomemed.books_user,x_132308_myhomemed.comics_user,x_132308_myhomemed.equipment_user,x_132308_myhomemed.music_user,x_132308_myhomemed.video_games_user,x_132308_myhomemed.video_genre_user,x_132308_myhomemed.video_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>

@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-08-31 22:20:31</sys_updated_on>
         <table>x_132308_myhomemed_books</table>
-        <ui_policy display_value="Books - Hide Series field on N/A entry.">3400e7a70f7c0300f06f4e9ce1050e79</ui_policy>
+        <ui_policy display_value="Books - Hide Series field, prequel, and sequel on N/A entry.">3400e7a70f7c0300f06f4e9ce1050e79</ui_policy>
         <visible>false</visible>
     </sys_ui_policy_action>
 </record_update>

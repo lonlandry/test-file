@@ -34,6 +34,7 @@
         <element attributes="edge_encryption_enabled=true" label="ISBN-8" max_length="12" name="u_book_isbn_8" type="string"/>
         <element label="Prequel" max_length="40" name="u_book_prequel" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Book publisher" max_length="64" name="u_book_publisher" type="string"/>
+        <element attributes="ref_ac_columns_search=true,ref_ac_display_value=true" label="Publisher country" max_length="32" name="u_book_pub_country" reference="x_132308_myhomemed_countries" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="usd" label="Record currency" max_length="40" name="u_book_record_currency" type="string">
             <choice>
                 <element label="$ USD" sequence="0" value="usd"/>
@@ -43,10 +44,14 @@
         </element>
         <element label="Sequel" max_length="40" name="u_book_sequel" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_book_series" type="string"/>
+        <element label="Series fields" max_length="40" name="u_book_series_fields" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Synopsis" max_length="972" name="u_book_synopsis" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="256" name="u_book_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_book_upc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Year printed" max_length="4" name="u_book_year_printed" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Year released" max_length="4" name="u_book_year_released" type="string"/>
+        <index name="index">
+            <element name="u_book_pub_country"/>
+        </index>
     </element>
 </database>

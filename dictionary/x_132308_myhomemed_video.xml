@@ -4,8 +4,9 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" hint="El número de registro único asignado a este elemento." label="Record no." max_length="40" name="number" read_only="true" type="string"/>
         <element label="B movie?" max_length="40" name="u_movie_b_movie" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Audio" max_length="40" name="u_video_audio" type="string"/>
+        <element label="Cast and info." max_length="8000" name="u_video_cast_info" type="translated_html"/>
         <element attributes="edge_encryption_enabled=true" label="Codec" max_length="40" name="u_video_codec" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="u_video_comments" type="string"/>
+        <element label="Comments" max_length="512" name="u_video_comments" type="translated_text"/>
         <element attributes="edge_encryption_enabled=true" label="Director" max_length="40" name="u_video_director" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Episode no." max_length="40" name="u_video_episode_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Episode title" max_length="40" name="u_video_episode_title" type="string"/>
@@ -118,7 +119,9 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="IMDB" max_length="9" name="u_video_imdb" type="string"/>
         <element label="Movie poster" max_length="65536" name="u_video_movie_poster" type="html"/>
+        <element attributes="ref_ac_columns_search=true,ref_ac_display_value=true" display="true" label="Studio" max_length="32" name="u_video_movie_studio" reference="x_132308_myhomemed_movie_studio" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Music by" max_length="40" name="u_video_music_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other studio" max_length="40" name="u_video_other_studio" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Presentation Format" max_length="40" name="u_video_presentation_format" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Producer" max_length="40" name="u_video_producer" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Rated" max_length="40" name="u_video_rated" type="string"/>
@@ -131,5 +134,8 @@
         <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_video_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_video_upc" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Year released" max_length="40" name="u_video_year_released" type="string"/>
+        <index name="index">
+            <element name="u_video_movie_studio"/>
+        </index>
     </element>
 </database>

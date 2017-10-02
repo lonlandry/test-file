@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Video Genre" max_length="40" name="x_132308_myhomemed_video_genre" type="collection"/>
-</database>

@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-09-16 01:24:06</sys_updated_on>
         <table>x_132308_myhomemed_books</table>
-        <ui_policy display_value="Books - If Classification field is Nonfiction then display Category field">78b9dde00f150300f06f4e9ce1050ec6</ui_policy>
+        <ui_policy display_value="Books - If Classification field is Nonfiction then display Category field.">78b9dde00f150300f06f4e9ce1050ec6</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

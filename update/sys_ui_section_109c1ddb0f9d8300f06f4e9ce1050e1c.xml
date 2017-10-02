@@ -2,16 +2,30 @@
 <record_update>
     <sys_ui_section caption="" section_id="109c1ddb0f9d8300f06f4e9ce1050e1c" sys_domain="global" table="x_132308_myhomemed_all_media" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>u_video_movie_studio</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-09-24 14:39:33</sys_created_on>
-            <sys_id>dd2d911f0f9d8300f06f4e9ce1050e24</sys_id>
+            <sys_created_on>2017-10-01 02:09:07</sys_created_on>
+            <sys_id>0984f6150f214300f06f4e9ce1050e76</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_132308_myhomemed_all_media" sys_domain="global" view="Default view">109c1ddb0f9d8300f06f4e9ce1050e1c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-09-24 14:39:33</sys_updated_on>
+            <sys_updated_on>2017-10-01 02:09:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-01 02:09:07</sys_created_on>
+            <sys_id>8984f6150f214300f06f4e9ce1050e76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_myhomemed_all_media" sys_domain="global" view="Default view">109c1ddb0f9d8300f06f4e9ce1050e1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-01 02:09:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
